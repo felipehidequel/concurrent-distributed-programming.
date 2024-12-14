@@ -6,6 +6,7 @@
 int main(int argc, char *argv[]) {
   int n, thread_count, i;
   int rank;
+  int *iteractions;
   if (argc < 3) {
     printf("Usage: \n");
     printf("./q23 <Number of iteractions> <thread count>\n");
@@ -14,7 +15,7 @@ int main(int argc, char *argv[]) {
 
   n = strtol(argv[1], NULL, 10);
   thread_count = strtol(argv[2], NULL, 10);
-  int *iteractions = (int *)malloc(sizeof(int) * n);
+  iteractions = (int *)malloc(sizeof(int) * n);
 
 #pragma omp parallel num_threads(thread_count) default(none) private(          \
     i,rank) shared(n,iteractions)
