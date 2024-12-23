@@ -1,0 +1,112 @@
+testing with n=10240000, p=1
+Elapsed time 0.050905 for allreduceRing
+Elapsed time 0.045782 for allreduceRing
+Elapsed time 0.045549 for allreduceRing
+Elapsed time 0.048660 for allreduceRing
+Elapsed time 0.048751 for allreduceRing
+
+testing with n=10240000, p=2
+Elapsed time 0.134655 for allreduceRing
+Elapsed time 0.135217 for allreduceRing
+Elapsed time 0.185631 for allreduceRing
+Elapsed time 0.174830 for allreduceRing
+Elapsed time 0.185871 for allreduceRing
+
+testing with n=10240000, p=4
+Elapsed time 0.312672 for allreduceRing
+Elapsed time 0.303410 for allreduceRing
+Elapsed time 0.336677 for allreduceRing
+Elapsed time 0.350107 for allreduceRing
+Elapsed time 0.353825 for allreduceRing
+
+testing with n=10240000, p=8
+Elapsed time 0.897991 for allreduceRing
+Elapsed time 0.866582 for allreduceRing
+Elapsed time 0.889227 for allreduceRing
+Elapsed time 0.882145 for allreduceRing
+Elapsed time 0.876886 for allreduceRing
+
+testing with n=20480000, p=1
+Elapsed time 0.122056 for allreduceRing
+Elapsed time 0.118433 for allreduceRing
+Elapsed time 0.114461 for allreduceRing
+Elapsed time 0.117878 for allreduceRing
+Elapsed time 0.116606 for allreduceRing
+
+testing with n=20480000, p=2
+Elapsed time 0.329500 for allreduceRing
+Elapsed time 0.319612 for allreduceRing
+Elapsed time 0.317849 for allreduceRing
+Elapsed time 0.325638 for allreduceRing
+Elapsed time 0.316869 for allreduceRing
+
+testing with n=20480000, p=4
+Elapsed time 0.689166 for allreduceRing
+Elapsed time 0.638567 for allreduceRing
+Elapsed time 0.625630 for allreduceRing
+Elapsed time 0.651615 for allreduceRing
+Elapsed time 0.632229 for allreduceRing
+
+testing with n=20480000, p=8
+Elapsed time 1.700037 for allreduceRing
+Elapsed time 1.716990 for allreduceRing
+Elapsed time 1.703644 for allreduceRing
+Elapsed time 1.707985 for allreduceRing
+Elapsed time 1.737702 for allreduceRing
+
+testing with n=40960000, p=1
+Elapsed time 0.237711 for allreduceRing
+Elapsed time 0.234265 for allreduceRing
+Elapsed time 0.235786 for allreduceRing
+Elapsed time 0.244859 for allreduceRing
+Elapsed time 0.241950 for allreduceRing
+
+testing with n=40960000, p=2
+Elapsed time 0.642374 for allreduceRing
+Elapsed time 0.642537 for allreduceRing
+Elapsed time 0.636924 for allreduceRing
+Elapsed time 0.642556 for allreduceRing
+Elapsed time 0.643446 for allreduceRing
+
+testing with n=40960000, p=4
+Elapsed time 1.170744 for allreduceRing
+Elapsed time 1.182485 for allreduceRing
+Elapsed time 1.175487 for allreduceRing
+Elapsed time 1.186192 for allreduceRing
+Elapsed time 1.166588 for allreduceRing
+
+testing with n=40960000, p=8
+Elapsed time 3.505353 for allreduceRing
+Elapsed time 3.363650 for allreduceRing
+Elapsed time 3.490638 for allreduceRing
+Elapsed time 3.311571 for allreduceRing
+Elapsed time 3.339336 for allreduceRing
+
+testing with n=81920000J, p=1
+Elapsed time 0.505712 for allreduceRing
+Elapsed time 0.474170 for allreduceRing
+Elapsed time 0.486911 for allreduceRing
+Elapsed time 0.496756 for allreduceRing
+Elapsed time 0.478358 for allreduceRing
+
+testing with n=81920000J, p=2
+Elapsed time 1.186972 for allreduceRing
+Elapsed time 1.174961 for allreduceRing
+Elapsed time 1.154149 for allreduceRing
+Elapsed time 1.170949 for allreduceRing
+Elapsed time 1.154547 for allreduceRing
+
+testing with n=81920000J, p=4
+Elapsed time 2.272437 for allreduceRing
+Elapsed time 2.286401 for allreduceRing
+Elapsed time 2.262008 for allreduceRing
+Elapsed time 2.306877 for allreduceRing
+Elapsed time 2.282634 for allreduceRing
+
+testing with n=81920000J, p=8
+Elapsed time 9.889622 for allreduceRing
+Elapsed time 6.851617 for allreduceRing
+Elapsed time 6.629217 for allreduceRing
+Elapsed time 6.648547 for allreduceRing
+Elapsed time 6.601444 for allreduceRing
+

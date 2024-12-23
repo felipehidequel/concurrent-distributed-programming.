@@ -5,6 +5,7 @@
 void read_vetor(int n, int *vetor, int rank, int *local_sum, MPI_Comm comm);
 void prefix_sum(int size, int rank, int *local_sum, MPI_Comm comm);
 void print_vetor(int n, int *vetor);
+void prefix_sum_log(int size, int rank, int *local_sum, MPI_Comm comm);
 
 int main(void) {
   int *vetor = NULL;
@@ -30,7 +31,8 @@ int main(void) {
   soma = (int *)malloc(n * sizeof(int));
 
   read_vetor(n, vetor, rank, &local_sum, comm);
-  prefix_sum(n, rank, &local_sum, comm);
+  // prefix_sum(n, rank, &local_sum, comm);
+  prefix_sum_log(n, rank, &local_sum, comm);
 
   MPI_Gather(&local_sum, 1, MPI_INT, soma, 1, MPI_INT, 0, comm);
 
@@ -75,6 +77,23 @@ void prefix_sum(int size, int rank, int *local_sum, MPI_Comm comm) {
 #ifdef DEBUG
     printf("rank %d -> envia %d para rank %d\n", rank, *local_sum, partner);
 #endif
+  }
+}
+
+void prefix_sum_log(int size, int rank, int *local_sum, MPI_Comm comm) {
+  int step, partner;
+  int aux;
+
+  for (step = 1; step < size; step *= 2) { // 8
+    if (rank + step < size) {//  + 8 < 8
+      partner = rank + step; // 3
+      MPI_Send(local_sum, 1, MPI_INT, partner, 0, comm);
+    }
+    if (rank >= step) { // 0 >= 2
+      partner = rank - step;
+      MPI_Recv(&aux, 1, MPI_INT, partner, 0, comm, MPI_STATUS_IGNORE);
+      *local_sum += aux;
+    }
   }
 }
 

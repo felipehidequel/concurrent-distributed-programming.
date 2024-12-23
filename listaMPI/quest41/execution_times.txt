@@ -1,0 +1,32 @@
+testing with n=, p=1
+Elapsed time 0.000000 for allreduceRing
+Elapsed time 0.000000 for allreduceRing
+Elapsed time 0.000000 for allreduceRing
+Elapsed time 0.000000 for allreduceRing
+Elapsed time 0.000000 for allreduceRing
+
+testing with n=, p=2
+Elapsed time 0.000007 for allreduceRing
+Elapsed time 0.000010 for allreduceRing
+Elapsed time 0.000010 for allreduceRing
+Elapsed time 0.000009 for allreduceRing
+Elapsed time 0.000007 for allreduceRing
+
+testing with n=, p=4
+Elapsed time 0.000014 for allreduceRing
+Elapsed time 0.000024 for allreduceRing
+Elapsed time 0.000025 for allreduceRing
+Elapsed time 0.000023 for allreduceRing
+Elapsed time 0.000025 for allreduceRing
+
+testing with n=, p=8
+Elapsed time 0.000039 for allreduceRing
+Elapsed time 0.000044 for allreduceRing
+Elapsed time 0.000092 for allreduceRing
+Elapsed time 0.000084 for allreduceRing
+Elapsed time 0.000054 for allreduceRing
+
+testing with n=, p=16
+
+testing with n=, p=32
+

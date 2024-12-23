@@ -1,0 +1,21 @@
+testing with n=10240000000, p=1 
+Elapsed time = 4.093263
+Elapsed time = 4.143547
+Elapsed time = 4.154027
+Elapsed time = 4.181488
+Elapsed time = 4.215988
+
+testing with n=10240000000, p=2 
+Elapsed time = 2.319371
+Elapsed time = 2.323815
+Elapsed time = 2.333555
+Elapsed time = 2.353032
+Elapsed time = 2.358389
+
+testing with n=10240000000, p=4 
+Elapsed time = 1.298222
+Elapsed time = 1.286480
+Elapsed time = 1.303487
+Elapsed time = 1.312705
+Elapsed time = 1.323419
+
